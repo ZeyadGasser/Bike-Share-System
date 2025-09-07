@@ -2,6 +2,7 @@
 
 A simple and efficient system for renting normal bikes and scooters.
 
+Check the UML diagrams (see BikeShareUML.jpeg) to quickly understand the system.
 ## Features
 
 - Rent and return normal bikes and scooters.  
