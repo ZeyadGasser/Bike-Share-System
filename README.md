@@ -17,7 +17,21 @@ The main goal of this project was to practice proper software design:
 
 - Writing reusable and generic code.  
 - Applying core OOP concepts.  
-- Structuring a complex system in a maintainable way.  
+- Structuring a complex system in a maintainable way.
+- 
+### Key Classes
+
+- **User Hierarchy**: `User` (abstract) → `Customer`, `Admin`, `StationOperator`, `MaintenanceTechnician`
+- **Bike Hierarchy**: `IBike` (interface) → `Scooter`, `NormalBike`
+- **Station Management**: `Station`, `StationsManager`
+- **Trip and Billing**: `Trip`, `Invoice`
+- **Payment Services**: `IPaymentService` (interface)  → `CashPayment`, `PayPal`
+- **Support Classes**: `CardInfo`, `MaintenanceTicket`, `UIManager`, `UserManager`
+
+### Notes
+
+- Each class is separated into its own header (`.h`) and implementation (`.cpp`) file.
+- Modular design ensures scalability and maintainability.
 
 ## Try It Yourself
 
