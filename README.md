@@ -35,7 +35,8 @@ The main goal of this project was to practice proper software design:
 
 ## Try It Yourself
 
-If you want to try the system, you can clone this repository and compile it using a C++ GCC compiler:
+If you want to try the system, you can clone this repository and open it using Visual Studio.
+
 
 ```bash
 git clone https://github.com/ZeyadGasser/Bike-Share-System.git
